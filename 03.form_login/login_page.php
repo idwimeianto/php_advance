@@ -27,8 +27,8 @@
     }
 
     if ($error_message === "") {
-      setcookie("username","admin");
-      setcookie("name","Imam Firdaus Dwimeianto");
+      setcookie("username", "admin", time() + (86400 * 30));
+      setcookie("name","Imam Firdaus Dwimeianto", time() + (86400 * 30));
       header("Location: index.php");
     }
   }
