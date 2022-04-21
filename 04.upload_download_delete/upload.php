@@ -20,7 +20,7 @@
 
       $file_size = $_FILES["fupload"]["size"];
       if ($file_size > 2000000) {
-        $error_message .= "Ukuran file melebihi 700KB<br>";
+        $error_message .= "Ukuran file melebihi 2000KB<br>";
         $fail = true;
       }
 
